@@ -109,11 +109,11 @@ header{
 	text-align: center;
 }
 .top-nav ul li a.current-page{
-  content: "\27A4  ";
-	color: red;
+	color: #F54320;
 	font-weight: bold;
 }
 .top-nav ul li a.current-page:before {
+  content: "\27A4  ";
   color: #F54320;
   padding-right: 4px;
   position: relative;
@@ -121,12 +121,12 @@ header{
 }
 .top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
     background-color: #E3AD02;
-    color: red;
+    color: #DDDDDA;
     font-weight: bold;
 }
 .top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
     content: "\27A4  ";
-  	color: red;
+  	color: #DDDDDA;
   	padding-right: 4px;
   	position: relative;
   	top: 1px;
