@@ -189,6 +189,7 @@ footer p{
 .home-flag{
 	background-color: #FF69B4;
   background-size: contain;
+  text-align: center;
 	display: flex;
 	flex-direction: column;
 	max-width: 500px;
