@@ -119,14 +119,19 @@ header{
   position: relative;
   top: 1px;
 }
-.top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
-    background-color: #07fcfc;
-    color: #000000;
+.menu-icon a:hover{
+    background-color: #000000;
+    color: #FF1493;
+    font-weight: bold;
+}
+.top-nav ul li a:hover, .top-nav ul li a:focus{
+    background-color: #000000;
+    color: #07fcfc;
     font-weight: bold;
 }
 .top-nav ul li a:hover:before, .top-nav ul li a:focus:before{
-    content: "\27A4  ";
-  	color: #DDDDDA;
+    content: "\2665  ";
+  	color: #07fcfc;
   	padding-right: 4px;
   	position: relative;
   	top: 1px;
