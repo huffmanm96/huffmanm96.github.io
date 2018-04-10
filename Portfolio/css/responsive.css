@@ -50,9 +50,17 @@
         position: relative;
         top: 1px;
     }
+    /* .img-container{
+        width: 100%;
+    }
     .img-container img{
-        width: 25%;
-        margin: 5% 20%;
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em; */
+    /* .img-container img{
+        width: 40%;
+        margin: auto; */
 }
 
 /*-----DESKTOPS-----*/
@@ -78,11 +86,20 @@
     .home-flag{
         max-width: 400px;
     }
+    .img-container{
+        width: 100%;
+    }
+    .img-container img{
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
 
 /*-----OTHER-----*/
 /*further breakpoints for content on about, work, and crafts*/
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 300px){
     /*photo gallery*/
     .photo-grid{
         display: flex;
@@ -94,6 +111,35 @@
     }
     .landscape{
         width: 98%
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container img{
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    /*about*/
+    .about{
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container{
+        width: 50%;
+        margin-left: -4em;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container img{
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 }
 @media only screen and (min-width: 800px){
@@ -109,11 +155,13 @@
         margin-left: -4em;
     }
     .img-container{
-        width: 45%;
+        width: 100%;
     }
     .img-container img{
-        width: 25%;
-        /* margin: 0; */
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
     /*work*/
     .work{

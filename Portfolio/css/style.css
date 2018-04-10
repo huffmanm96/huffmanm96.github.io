@@ -46,10 +46,11 @@ p{
 	font-family: 'Open Sans', sans-serif;
 }
 h1{
-	font-size: 1.75em;
+	font-size: 2em;
 }
 h2{
 	font-size: 1.5em;
+  margin: auto;
 }
 h3{
 	font-size: 1.17em;
@@ -68,7 +69,7 @@ h6{
 	margin-top: 110px;
 }
 .about, .work, .crafts, .contact{
-	margin: auto;
+	/* margin: auto; */
 	padding-right: 3%;
 	padding-left: 3%;
 }
@@ -185,8 +186,8 @@ footer p{
   background-color: #000000;
   background-image: url("../img/spotlight.jpg");
 	background-size: cover;
-	/* background-position: center top;
-	background-repeat: no-repeat; */
+	background-position: center top;
+	/* background-repeat: no-repeat; */
 }
 .main-content-home{
 	margin-top: 100px;
@@ -226,35 +227,69 @@ footer p{
 
 /*-----ABOUT PAGE-----*/
 .resp-image{ /*also photo gallery*/
-	max-width: 100%;
+	max-width: 35%;
+}
+.img-container{
+  text-align: center;
 }
 .img-container img{
 	/* width: 25%;
 	margin: 10%;
   position: fixed;
 	display: block; */
-  margin-left: auto;
+  /* margin-left: auto;
 	margin-right: auto;
 	display: block;
-	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75); */
+  background-size: contain;
+  /* text-align: center;
+	display: flex;
+	flex-direction: column; */
+	max-width: 35%;
+	/* padding: 1.5em; */
+  /* position: absolute;
+  left: 50%;
+  margin-left: -100px; */
+	/* box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray; */
 }
 .aboutme-container{
-  background-color: #f9b6f1;
+  background: rgba(249, 182, 241, 0.9);
+  text-align: center;
 	width: 98%;
+  box-shadow: 0px 8px 10px hotpink, -10px 8px 15px hotpink, 10px 8px 15px hotpink, 0px -8px 10px hotpink;
 	margin-top: 0;
 	margin-bottom: 3%;
 }
+.aboutme-container h1{
+	font-family: 'Pinyon Script', cursive;
+  color: #808080;
+  margin-top: 42px;
+}
+.aboutme-container img{
+  max-width: 35%;
+  margin-top: 5px;
+}
 .aboutme-container h2{
 	max-width: 500px;
+  font-family: 'Pinyon Script', cursive;
+  color: #808080;
+  text-align: center;
+  margin-top: 25px;
 }
-.aboutme-container h2 span.blue{
-	color: #17BEBB;
+.aboutme-container p{
+  padding: 1em;
 }
-.aboutme-container h2 span.red{
-	color: #F54320;
+.aboutme-container ul{
+  text-align:center;
+  list-style-position: inside;
+  margin: auto;
+  padding: 5px 0 0 0;
 }
-.aboutme-container h2 span.yellow{
-	color: #E3AD02;
+.resume-pdf {
+    width: 100%;
+    margin-left: auto;
+  	margin-right: auto;
+    padding-bottom: 6%;
 }
 /*-----WORK PAGE-----*/
 .work-done, .work-todo{
