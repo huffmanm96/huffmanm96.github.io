@@ -274,7 +274,7 @@ footer p{
 }
 .resume-pdf{
   width: 100%;
-  /* overflow: auto; */
+  text-align: center;
 }
 /* .resume-pdf {
     width: 100%;
