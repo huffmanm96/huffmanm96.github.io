@@ -68,7 +68,7 @@ h6{
 	flex: 1 0 auto;
 	margin-top: 110px;
 }
-.about, .work, .crafts, .contact{
+.about, .projects, .life{
 	/* margin: auto; */
 	padding-right: 3%;
 	padding-left: 3%;
@@ -220,7 +220,7 @@ footer p{
 	font-family: "Quicksand", sans-serif;
 	font-size: 1.5em;
 	font-weight: lighter;
-  padding-top: 0.5em;
+  padding-top: 0.15em;
   padding-bottom: 0.15em;
 }
 #school{
@@ -269,10 +269,12 @@ footer p{
 	font-family: 'Pinyon Script', cursive;
   color: #808080;
   margin-top: 42px;
+  margin-bottom: 25px;
 }
 .aboutme-container img{
   max-width: 35%;
   margin-top: 5px;
+  box-shadow: 0px 8px 10px silver, -10px 8px 15px silver, 10px 8px 15px silver, 0px -8px 10px silver;
 }
 .aboutme-container h2{
 	max-width: 500px;
@@ -282,7 +284,8 @@ footer p{
   margin-top: 25px;
 }
 .aboutme-container p{
-  padding: 1em;
+  padding: 0.5em;
+  padding-bottom: 2em;
 }
 .aboutme-container ul{
   text-align:center;
@@ -290,25 +293,47 @@ footer p{
   margin: auto;
   padding: 5px 0 0 0;
 }
-.resume-pdf {
+.aboutme-container ul p{
+  font-weight: bold;
+  padding: 0.7em;
+  padding-top: 0px;
+}
+.resume-pdf{
+  width: 100%;
+  /* overflow: auto; */
+}
+/* .resume-pdf {
     width: 100%;
+    min-width: 5px;
+    max-width: 100%;
+    height: 500px;
     margin-left: auto;
   	margin-right: auto;
     padding-bottom: 6%;
-}
-/*-----WORK PAGE-----*/
-.work-intro {
+} */
+/* .resume-pdf object{
+    overflow: auto;
+} */
+/*-----projects PAGE-----*/
+.projects-intro {
   width: 100%;
   /* background-color: #f9b6f1; */
   background-color: #000000;
   color: white;
   box-shadow: 0px 8px 10px hotpink, -10px 8px 15px hotpink, 10px 8px 15px hotpink, 0px -8px 10px hotpink;
   text-align: center;
-  padding: 10px 0px 40px 0px;
+  padding-top: 1em;
+  padding-bottom: 35px;
 }
-.work-intro h1{
+.projects-intro h1{
 	font-family: 'Pinyon Script', cursive;
 }
+#my-projects, p{
+	margin: 0;
+	/* padding: 0; */
+  padding-top: 0.75em;
+}
+
 .pims, .amazon, .label-insight{
 	color: #000000;
 	padding: .25em 1.5em 1.5em;
@@ -392,18 +417,18 @@ footer p{
 	margin-bottom: .25em;
 }
 
-/*-----CRAFTS PAGE ------*/
-.main-content-crafts{
+/*-----life PAGE ------*/
+.main-content-life{
 	margin-top: 100px;
 }
 /*photo gallery*/
-.crafts{
+.life{
 	display: block;
 	margin: auto;
 	max-width: 1200px;
   text-align: center;
 }
-.crafts h1{
+.life h1{
   font-family: 'Pinyon Script', cursive;
 	/* text-shadow: 2px 2px deeppink; */
   color: hotpink;
@@ -418,5 +443,3 @@ footer p{
   	display: block;
   	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 }
-
-/*-----CONTACT PAGE-----*/
