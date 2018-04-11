@@ -86,16 +86,16 @@ header{
 .top-nav ul{
 	list-style-type: none;
 	padding: 0;
-	background-color: #000000; /*CHANGE*/
+	background-color: #000000;
 	margin: 0;
 	display: none;
 }
 .top-nav ul li, .menu-icon{
-	border-top: 1px solid #FF69B4; /*CHANGE*/
+	border-top: 1px solid #FF69B4;
 }
 .top-nav ul li a{
 	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
+	color: #DDDDDA;
 	text-decoration: none;
 	padding: .5em 1em;
 	display: block;
@@ -103,7 +103,7 @@ header{
 }
 .menu-icon a{
 	font-size: 1em;
-	color: #DDDDDA; /*CHANGE*/
+	color: #DDDDDA;
 	text-decoration: none;
 	padding: .5em 1em;
 	display: block;
@@ -144,7 +144,7 @@ header{
 
 /*-----LOGO-----*/
 .logo{
-	background-color: #000000; /*CHANGE*/
+	background-color: #000000;
 	margin: 0;
 	text-align: center;
 	padding: .25em .75em;
@@ -165,17 +165,6 @@ footer p{
 	padding-bottom: .75em;
 }
 /*social media icons*/
-/*.fa {
-    font-size: 1em;
-    padding: .5em .25em 0;
-    text-align: justify;
-    text-decoration: none;
-    border-radius: 50%;
-    color: #DDDDDA;
-}
-.fa:hover, .fa:focus{
-	color: #E3AD02;
-}*/
 .icon{
 	padding: .5em .25em 0;
 	height: 25px;
@@ -238,23 +227,8 @@ footer p{
   text-align: center;
 }
 .img-container img{
-	/* width: 25%;
-	margin: 10%;
-  position: fixed;
-	display: block; */
-  /* margin-left: auto;
-	margin-right: auto;
-	display: block;
-	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75); */
   background-size: contain;
-  /* text-align: center;
-	display: flex;
-	flex-direction: column; */
 	max-width: 35%;
-	/* padding: 1.5em; */
-  /* position: absolute;
-  left: 50%;
-  margin-left: -100px; */
 	/* box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray; */
 }
 .aboutme-container{
@@ -317,7 +291,6 @@ footer p{
 /*-----projects PAGE-----*/
 .projects-intro {
   width: 100%;
-  /* background-color: #f9b6f1; */
   background-color: #000000;
   color: white;
   box-shadow: 0px 8px 10px hotpink, -10px 8px 15px hotpink, 10px 8px 15px hotpink, 0px -8px 10px hotpink;
@@ -330,7 +303,6 @@ footer p{
 }
 #my-projects, p{
 	margin: 0;
-	/* padding: 0; */
   padding-top: 0.75em;
 }
 
@@ -341,10 +313,8 @@ footer p{
   text-align: center;
 }
 .pims{
-	/* background-color: #e0b6f9; */
   background-color: #000000;
   color: white;
-	/* margin-top: 1.5em; */
   margin-top: 1em;
   margin-bottom: 2em;
   box-shadow: 0px 8px 10px hotpink, -10px 8px 15px hotpink, 10px 8px 15px hotpink, 0px -8px 10px hotpink;
@@ -365,7 +335,6 @@ footer p{
   box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
 }
 .amazon{
-	/* background-color: #f9b6f1; */
   background-color: #000000;
   color: white;
 	margin-top: 1.5em;
@@ -388,12 +357,9 @@ footer p{
   box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
 }
 .label-insight{
-	/* background-color: #e0b6f9; */
   width: 100%;
   background-color: #000000;
   color: white;
-	/* margin-top: 1em;
-  margin-bottom: 2em; */
   margin-top: 1.5em;
   box-shadow: 0px 8px 10px hotpink, -10px 8px 15px hotpink, 10px 8px 15px hotpink, 0px -8px 10px hotpink;
 }
@@ -430,7 +396,6 @@ footer p{
 }
 .life h1{
   font-family: 'Pinyon Script', cursive;
-	/* text-shadow: 2px 2px deeppink; */
   color: hotpink;
   padding-top: 0.1em;
 }
