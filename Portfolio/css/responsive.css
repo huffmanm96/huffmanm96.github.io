@@ -141,6 +141,26 @@
         margin-left: 1em;
         margin-right: 1em;
     }
+    /*projects*/
+    .work{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .work-intro{
+        width: 100%
+        flex: 2;
+    }
+    .pims-img{
+      width: 100%;
+    }
+    .amazon-img{
+      width: 100%;
+    }
+    .label-insight-img{
+      width: 100%;
+    }
 }
 @media only screen and (min-width: 800px){
     /*about*/
@@ -174,10 +194,6 @@
         width: 100%
         flex: 2;
     }
-    .work-done, .work-todo{
-        width: 43.5%;
-        margin: 1.5em 0;
-    }
     /*crafts - photo gallery*/
     .photo-cell{
         width: 22.75%;
@@ -185,4 +201,5 @@
     .landscape{
         width: 47.5%;
     }
+
 }

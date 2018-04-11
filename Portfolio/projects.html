@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>maddiefactured</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pinyon+Script|Tangerine" rel="stylesheet">
+	<!--Icon Library for Social Media-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!--Javascript-->
+	<script type="text/javascript" src="js/interactivity.js"></script>
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body class="body body-home">
+	<a href="#main-content" class="skip">Skip navigation</a>
+	<header>
+		<nav id = "top-nav" class="top-nav">
+       		<div class="logo">
+           		<a href="index.html"><img src="img/madison.jpg" alt="maddiefactured home"></a>
+       		</div>
+       		<div class="menu-icon">
+       			<a id="toggle-icon" href="javascript:void(0);" onclick="toggleMenu()">&#9776; Menu</a>
+       		</div>
+	       <ul>
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="about-me.html">About Me</a></li>
+	            <li><a class="current-page" href="projects.html">Projects</a></li>
+	            <li><a href="life.html">Life</a></li>
+	        </ul>
+   		</nav>
+	</header>
+	<div id="main-content" class="main-content main-content-work">
+		<section class="work">
+			<div class="work-intro">
+				<h1>~ My Projects ~</h1>
+					<p>Click on a project photo to read my blog post and learn more about it.</p>
+			</div>
+      <div class="label-insight">
+				<h2>Label Insight: Ingredients For Success</h2>
+        <a href="https://seelio.com/w/3hwh/ingredients-for-success?student=madihuff">
+          <img class="label-insight-img" src="img/label-insight.png" alt="Photo of Label Insight project.">
+        </a>
+        <p>Leveraged OCR and Computer Vision technology to classify and read text off photos of consumer products to extract meaningful nutrient information.</p>
+      </div>
+      <div class="amazon">
+				<h2>Agent Training Tracker for all Virtual Customer Service (VCS) Associates</h2>
+        <a href="https://seelio.com/w/35am/amazon?student=madihuff">
+          <img class="amazon-img" src="img/amazon.png" alt="Photo of Amazon project.">
+        </a>
+        <p>When the project was first initiated, several documents were provided to me that contained information as to the baseline requirements for each subsite. After I sorted through and documented all of the pre-existing requirements, I organized and conducted a Stakeholder meeting in order to identify any additional requirements that were not laid out in these documents. In an effort to accurately prioritize the requirements list, I coordinated meetings with identified POC’s who were working on projects that may have coincided with components of this project and may therefore have alleviated the need for some of the requirements mentioned above. Following those meetings/revelations and with all of the gathered information above in mind, I compiled the final prioritized requirements and reviewed it in a meeting with all of the stakeholders for approval. I then identified the data pieces needed in order to fulfill the final requirements and categorized them by source. Then, I created the necessary reports to gather the information, and scheduled them to run from their different sources and be uploaded to EDX/S3 (secure encrypted storage location) daily, then I created an ETLM (job scheduler) job to bring the information from EDX/S3 into the appropriate tables that I created for it in Redshift. Following that, I wrote two separate Redshift queries. One that would serve as the bulk data pull for the tool, and another that would pull all of the attrition data into one report as well. From there, I scheduled another ETLM job and made a data connection with Excel that would run the queries on the Redshift tables daily and bring that information into the reports in Excel which then refreshes the data in the tool. After all of that was implemented, the data pipeline was complete. From there, I created and implemented the UI, and all of the data connections had to be made between the back-end and the front-end to ensure that the information was displayed accurately and visualized as intended. I then initiated usability testing, and made any necessary adjustments prior to the final stakeholder meeting and demo.</p>
+      </div>
+			<div class="pims">
+				<h2>Spare the Aspirin and Make the Database Headache-Free Instead: Prevent Child Abuse America</h2>
+        <a href="https://seelio.com/w/2vfh/spare-the-aspirin-and-make-the-database-headache_free-instead-prevent-child-abuse-america?student=madihuff">
+          <img class="pims-img" src="img/pims.png" alt="Photo of PIMS project.">
+        </a>
+					<p>For this project I worked as a Business Information Analyst. In this role I conducted background research on the NPO database market, created and dispersed a usability survey, and conducted multiple interviews with regular users of the database. My partner and I collected and analyzed all of the raw data from these processes in order to provide useful recommendations for the future of the business involving the PIMS database.</p>
+			</div>
+		</section>
+	</div>
+  <footer class="footer">
+    <a href="https://github.com/huffmanm96"><img src="img/github.png" class="icon" alt="GitHub"></a>
+		<a href="https://www.linkedin.com/in/madison-huffman/"><img src="img/linkedin.png" class="icon" alt="LinkedIn"></a>
+		<a href="mailto:madihuff@umich.edu?Subject=Hello%20Madison%20Huffman"><img src="img/envelope.png" class="icon" alt="Send Email"></a>
+		<p><i>Madi H. &copy; 2018</i></p>
+	</footer>
+</body>
+</html>
