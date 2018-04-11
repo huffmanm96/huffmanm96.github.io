@@ -91,7 +91,7 @@ header{
 	display: none;
 }
 .top-nav ul li, .menu-icon{
-	border-top: 1px solid #DDDDDA; /*CHANGE*/
+	border-top: 1px solid #FF69B4; /*CHANGE*/
 }
 .top-nav ul li a{
 	font-size: 1em;
@@ -122,7 +122,7 @@ header{
 }
 .menu-icon a:hover{
     background-color: #000000;
-    color: #FF1493;
+    color: #ff389b;
     font-weight: bold;
 }
 .top-nav ul li a:hover, .top-nav ul li a:focus{
@@ -394,7 +394,7 @@ footer p{
 
 /*-----CRAFTS PAGE ------*/
 .main-content-crafts{
-	margin-top: 125px;
+	margin-top: 100px;
 }
 /*photo gallery*/
 .crafts{
@@ -407,6 +407,7 @@ footer p{
   font-family: 'Pinyon Script', cursive;
 	/* text-shadow: 2px 2px deeppink; */
   color: hotpink;
+  padding-top: 0.1em;
 }
 .photo-cell{
 	margin-bottom: 2%;
