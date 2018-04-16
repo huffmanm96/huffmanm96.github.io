@@ -8,15 +8,6 @@
     <title>339 Exam</title>
   </head>
   <body>
-<!--
-host and share your URL
-write a well-formed simple document that will validate
-include an image and style it to fit in the confines of a page
-successfully include two media queries for simple color/font changes
-change the visibility of an element using javaScript or jQuery
-change the content of an element using JavaScript or jQuery
-successfully layout multiple block elements horizontally.
--->
 
     <h1>Madison</h1>
     <section class="photo-wrapper">
@@ -27,35 +18,21 @@ successfully layout multiple block elements horizontally.
     </div>
 
     <div id="hide-button">
-      <button type="button" onclick="hideme('my-photo-left')">Hide Image</button>
+      <button type="button" onclick="hideme()">Hide Image</button>
     </div>
     <div id="show-button">
-      <button type="button" onclick="showme('my-photo-left')">Show Image</button>
-    </div>
-    <!-- <div id="container">
-      <div id="left">Left</div>
-      <div id="middle">Middle</div>
-      <div id="right">Right</div>
+      <button type="button" onclick="showme()">Show Image</button>
     </div>
 
-    <h2>JavaScript can Change Visibility</h2>
-    <div onmouseover="toggle('mydiv');" onmouseout="toggle('mydiv');">Hover</div>
-    <div id='mydiv' style="visibility: hidden;">I see you!</div> -->
     <script>
-        function hideme(obj) {
+        function hideme() {
         document.getElementById("my-photo-left").style.visibility = "hidden";
+        document.getElementById("my-photo-right").align = "middle";
         }
-        function showme(obj) {
+        function showme() {
         document.getElementById("my-photo-left").style.visibility = "visible";
         }
     </script>
-
-    <!-- <h2>JavaScript can Change HTML</h2>
-    <p id="p1">Hello World!</p>
-    <script>
-    document.getElementById("p1").innerHTML = "New text!";
-    </script>
-    <p>The paragraph above was changed by a script.</p> -->
 
   </body>
 </html>
