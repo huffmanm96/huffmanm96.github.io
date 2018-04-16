@@ -21,16 +21,16 @@ successfully layout multiple block elements horizontally.
     <h1>Madison</h1>
     <section class="photo-wrapper">
       <div class="my-images">
-        <img src="images/examPic.JPG" class="my-photo left" alt="Exam Photo">
-        <img src="images/UMSI-logo.jpg" class="my-photo right" alt="UMSI logo">
+        <img src="images/examPic.JPG" class="my-photo left" id="my-photo-left" alt="Exam Photo">
+        <img src="images/UMSI-logo.jpg" class="my-photo right" id="my-photo-right" alt="UMSI logo">
       </div>
     </div>
 
     <div id="hide-button">
-      <button type="button" onclick="hideme('my-photo left')">Hide Image</button>
+      <button type="button" onclick="hideme('my-photo-left')">Hide Image</button>
     </div>
     <div id="show-button">
-      <button type="button" onclick="showme('my-photo left')">Show Image</button>
+      <button type="button" onclick="showme('my-photo-left')">Show Image</button>
     </div>
     <!-- <div id="container">
       <div id="left">Left</div>
@@ -43,12 +43,10 @@ successfully layout multiple block elements horizontally.
     <div id='mydiv' style="visibility: hidden;">I see you!</div> -->
     <script>
         function hideme(obj) {
-        var item = document.getElementById(obj);
-        item.style.visibility = 'hidden';
+        document.getElementById("my-photo-left").style.visibility = "hidden";
         }
         function showme(obj) {
-        var item = document.getElementById(obj);
-        item.style.visibility = 'visible';
+        document.getElementById("my-photo-left").style.visibility = "visible";
         }
     </script>
 
