@@ -1,0 +1,14 @@
+/*-----TABLETS-----*/
+@media only screen and (min-width: 650px){
+    .my-header h1{
+      color: purple;
+      font-family: Great Vibes;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 650px){
+  .my-header h1{
+    color: pink;
+    font-family: Quicksand;
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>339 Exam</title>
+  </head>
+  <body>
+<!--
+host and share your URL
+write a well-formed simple document that will validate
+include an image and style it to fit in the confines of a page
+successfully include two media queries for simple color/font changes
+change the visibility of an element using javaScript or jQuery
+change the content of an element using JavaScript or jQuery
+successfully layout multiple block elements horizontally.
+-->
+
+    <h1>Madison</h1>
+    <section class="photo-wrapper">
+      <div class="my-images">
+        <img src="images/examPic.jpg" class="my-photo left" alt="Exam Photo">
+        <img src="images/UMSI-logo.jpg" class="my-photo right" alt="UMSI logo">
+      </div>
+    </div>
+
+    <div id="hide-button">
+      <button type="button" onclick="hideme('my-photo left')">Hide Image</button>
+    </div>
+    <div id="show-button">
+      <button type="button" onclick="showme('my-photo left')">Show Image</button>
+    </div>
+    <!-- <div id="container">
+      <div id="left">Left</div>
+      <div id="middle">Middle</div>
+      <div id="right">Right</div>
+    </div>
+
+    <h2>JavaScript can Change Visibility</h2>
+    <div onmouseover="toggle('mydiv');" onmouseout="toggle('mydiv');">Hover</div>
+    <div id='mydiv' style="visibility: hidden;">I see you!</div> -->
+    <script>
+        function hideme(obj) {
+        var item = document.getElementById(obj);
+        item.style.visibility = 'hidden';
+        }
+        function showme(obj) {
+        var item = document.getElementById(obj);
+        item.style.visibility = 'visible';
+        }
+    </script>
+
+    <!-- <h2>JavaScript can Change HTML</h2>
+    <p id="p1">Hello World!</p>
+    <script>
+    document.getElementById("p1").innerHTML = "New text!";
+    </script>
+    <p>The paragraph above was changed by a script.</p> -->
+
+  </body>
+</html>

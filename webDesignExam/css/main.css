@@ -1,0 +1,132 @@
+/* img {
+    width:150%;
+} */
+/* img {
+  width: 50%;
+  float:left;
+  display: inline-block;
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  padding: 5%;
+} */
+/* div {
+  display:inline-block;
+} */
+/* .photo-wrapper {
+  width: 100%;
+  display: inline-block;
+} */
+/* .my-images-1 {
+  height:auto;
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.my-images-2 {
+  height:auto;
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.my-photo {
+  width: 100%;
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  padding: 5%;
+} */
+/* .left{
+  float: left;
+}
+.right{
+  float: right;
+} */
+
+.my-images {
+  width: 100%;
+  height:auto;
+  margin: 0;
+}
+.my-photo {
+  width: 50%;
+  box-sizing: border-box;
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  padding: 5%;
+  display:inline-block;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+
+section{
+  display:inline-block;
+  width:100%;
+}
+div{
+  display:inline-block;
+}
+h1 {
+  font-family: garamond;
+}
+
+p {
+  font-family: helvetica;
+}
+
+#container {
+  height: 100%;
+  width:100%;
+  font-size:0;
+}
+#left, #middle, #right {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+}
+#left {
+  width: 25%;
+  height: 100px;
+  background: blue;
+}
+#middle {
+  width: 50%;
+  height: 100px;
+  background: green;
+}
+#right {
+  width: 25%;
+  height: 100px;
+  background: yellow;
+}
+
+@media only screen and (max-width : 700px) {
+  /* body {
+    background-color: grey;
+  }
+  h1 {
+    font-family: cursive;
+    color: blue;
+  } */
+}
+
+@media only screen and (min-width : 701px) and (max-width : 1200px) {
+  /* body {
+    background-color: teal;
+  }
+  h1 {
+    font-family: fantasy;
+    color: red;
+  } */
+}
